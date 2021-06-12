@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    width: 100%;
+}
+.nav-bar span{
+    font-size: 40px;
+    color: rgb(43, 226, 202);
+}
+
+.nav-items #active{
+    background-color: rgb(43, 226, 202);
+    border-radius: 8px;
+
+}
+
+.nav-items > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;  
+    margin-left: 20px;
+    padding: 8px;
+    transition-duration: 0.4s;
+}
+
+.nav-items a:hover{
+    background-color: rgb(43, 226, 202);
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%;height: 50vh; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 15s slidy infinite; 
+    }
+    
+.footer h4{
+    padding-top: 2em;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(43, 226, 202);
+}
