@@ -102,78 +102,105 @@ div#slider figure {
     animation: 15s slidy infinite;
 }
 
-.about-container{
+.about-container {
     /* height: auto; */
     /* width: auto; */
     padding: 0.5em 5em 0.5em 5em;
     /* background-color: red; */
 }
 
-.about-container .history{
+.about-container .history {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 
-.history img{
+.history img {
     height: 300px;
     width: auto;
 }
 
-.history-body{
+.history-body {
     text-align: justify;
 }
 
-.history h1{
+.history h1 {
     text-align: center;
     padding: 0.5em;
 }
 
-.vision-body h1{
+.vision-body h1 {
     text-align: center;
     padding: 0.5em;
 }
 
-.vision-body span{
+.vision-body span {
     color: rgb(43, 226, 202);
 }
 
-.vision-body p{
+.vision-body p {
     text-align: center;
     padding: 0.5em;
 }
 
-.board{
+.board {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2em;
     padding: 0.5em;
 }
 
-.board-container{
+.board-container {
     padding: 0.5em;
     text-align: center;
 }
 
-.board img{
+.board img {
     border-radius: 20%;
     width: 200px;
     height: 200px;
 }
 
-.team{
+.team {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.team-container{
+.team-container {
     padding: 0.5em;
     text-align: center;
 }
 
-.team img{
+.team img {
     border-radius: 20%;
     width: 200px;
     height: 200px;
+}
+
+.product-container {
+    padding: 3em 5em 0.5em 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product {
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+    background-color: rgb(43, 226, 202);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin: 10px;
+}
+
+.product:hover{
+    transform: translateY(-15px);
+}
+
+ .product h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .footer h4 {
