@@ -203,6 +203,29 @@ div#slider figure {
     margin-bottom: 10px;
 }
 
+.ebanking-container{
+    padding: 3em 5em 0.5em 5em;
+    display: grid;;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+
+}
+
+.banking{
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+    background-color: rgb(43, 226, 202);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin: 10px;
+}
+.banking h1{
+    padding: 0.5em;
+}
+
 .footer h4 {
     padding-top: 2em;
     text-align: center;

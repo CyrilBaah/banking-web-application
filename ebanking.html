@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rook-Knight Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <span> Rook-Knight|||Bank</span>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="product.html">Product & Service</a>
+            <a href="ebanking.html" id="active">E-Banking</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="ebanking-container">
+        <div class="banking">
+            <h1>Deposit</h1>
+            <input type="number" id="cash" placeholder="Enter Amount" required min="0">
+            <input type="submit" value="Deposit" onclick="deposit()">
+        </div>
+
+        <div class="banking">
+            <h1>Current Balance</h1>
+            <h4>$ <span id="balance">00</span></h4>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h4>© Built with ♥ by <a href="http://https://cyrilbaah-portfolio.netlify.app/" target="_blank">CyrilBaah</a>
+        </h4>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
