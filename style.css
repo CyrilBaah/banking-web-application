@@ -23,6 +23,11 @@ body {
     color: rgb(43, 226, 202);
 }
 
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(43, 226, 202);
+}
+
 .nav-items #active {
     background-color: rgb(43, 226, 202);
     border-radius: 8px;
@@ -100,6 +105,24 @@ div#slider figure {
     text-align: left;
     font-size: 0;
     animation: 15s slidy infinite;
+}
+
+.home-container {
+    padding: 3em 5em 0.5em 5em;
+
+}
+
+.home-body h1 {
+    text-align: center;
+}
+
+.home-body p {
+    font-size: 20px;
+    padding: 0.5em 6em;
+}
+
+.home-body span {
+    color: rgb(43, 226, 202);
 }
 
 .about-container {
