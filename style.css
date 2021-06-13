@@ -103,10 +103,7 @@ div#slider figure {
 }
 
 .about-container {
-    /* height: auto; */
-    /* width: auto; */
     padding: 0.5em 5em 0.5em 5em;
-    /* background-color: red; */
 }
 
 .about-container .history {
@@ -194,24 +191,24 @@ div#slider figure {
     margin: 10px;
 }
 
-.product:hover{
+.product:hover {
     transform: translateY(-15px);
 }
 
- .product h4 {
+.product h4 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.ebanking-container{
+.ebanking-container {
     padding: 3em 5em 0.5em 5em;
-    display: grid;;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5em;
 
 }
 
-.banking{
+.banking {
     text-align: center;
     margin: 18px 10px 40px;
     transition: transform 0.2s ease-in;
@@ -222,8 +219,60 @@ div#slider figure {
     padding: 50px;
     margin: 10px;
 }
-.banking h1{
+
+.banking h1 {
     padding: 0.5em;
+}
+
+input[type=number] {
+    background-color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: rgb(57, 179, 162);
+    padding: 12px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    color: rgb(42, 71, 68);
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+    padding: 3em 5em 0.5em 5em;
+}
+
+.contact-body {
+    padding: 0.5em;
+}
+
+.contact-body h2 {
+    text-align: center;
+    padding: 1em;
+}
+
+.contact-body h2 span {
+    color: rgb(43, 226, 202);
+}
+
+.contact-body input {
+    display: block;
+}
+
+input[type=text] {
+    background-color: white;
+    padding: 1em 7em;
+    margin: 1em;
+    border: none;
+    border-radius: 4px;
 }
 
 .footer h4 {
